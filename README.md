@@ -34,3 +34,15 @@ This project focuses on building predictive models to identify patients at risk 
 - Matplotlib
 - Seaborn
 - Scikit-learn
+
+## Comparison of Machine Learning Models' Performance Across Metrics
+
+| Model             | Accuracy | CV Score | Precision | Recall  | F1-Score | AUC  |
+|-------------------|----------|----------|-----------|---------|----------|------|
+| Logistic Regression | 87.10%   | 76.67%   | 87.50%    | 95.45%  | 91.30%   | 88%  |
+| Decision Tree      | 74.19%   | 83.33%   | 93.75%    | 68.18%  | 78.95%   | 79%  |
+| Random Forest      | 90.32%   | 90.00%   | 95.24%    | 90.91%  | 93.02%   | 93%  |
+| SVM                | 87.10%   | 83.33%   | 90.91%    | 90.91%  | 90.91%   | 89%  |
+| XGBoost           | 77.42%   | 76.67%   | 85.71%    | 81.82%  | 83.72%   | 87%  |
+| CatBoost           | 87.10%   | 90.00%   | 95.00%    | 86.36%  | 90.48%   | 91%  |
+| LightGBM           | 77.42%   | 70.83%   | 89.47%    | 77.27%  | 82.93%   | 84%  |

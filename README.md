@@ -15,7 +15,7 @@ This project focuses on building predictive models to identify patients at risk 
   - Decision Tree
   - Support Vector Machine (SVM)
   - Random Forest
-  - 
+    
 - **Model Evaluation**: Accuracy, AUC-ROC Curve, CV Score, Precision, Recall, F1-Score
 
 ## Best Model Performance
